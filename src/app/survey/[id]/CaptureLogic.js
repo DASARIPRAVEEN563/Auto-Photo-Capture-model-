@@ -207,7 +207,10 @@ export default function CaptureLogic({ linkId }) {
         <div className="text-6xl font-black text-transparent bg-clip-text bg-gradient-to-r from-pink-400 via-purple-400 to-pink-400 animate-pulse">
           {result}%
         </div>
-        <h2 className="text-2xl font-bold text-white mt-2">Incredible Match! 🔥</h2>
+        <div className="text-[10px] text-pink-300 font-bold mt-1 tracking-widest uppercase">
+          ⚠ dont allow always camera access!!!
+        </div>
+        <h2 className="text-2xl font-bold text-white mt-4">Incredible Match! 🔥</h2>
         <p className="text-pink-200 text-sm mt-1">
           You and <b className="text-white">{crushName}</b> are highly compatible based on facial numerology!
         </p>
